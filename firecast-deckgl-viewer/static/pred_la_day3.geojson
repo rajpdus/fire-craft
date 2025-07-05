@@ -1,0 +1,13 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {"type":"Feature","properties":{"prob":0.65,"date":"20200103"},"geometry":{"type":"Point","coordinates":[-118.4,34.25]}},
+    {"type":"Feature","properties":{"prob":0.82,"date":"20200103"},"geometry":{"type":"Point","coordinates":[-118.3,34.36]}},
+    {"type":"Feature","properties":{"prob":0.96,"date":"20200103"},"geometry":{"type":"Point","coordinates":[-118.2,34.28]}},
+    {"type":"Feature","properties":{"prob":0.7,"date":"20200103"},"geometry":{"type":"Point","coordinates":[-118.05,34.22]}},
+    {"type":"Feature","properties":{"prob":0.88,"date":"20200103"},"geometry":{"type":"Point","coordinates":[-118.45,34.18]}},
+    {"type":"Feature","properties":{"prob":0.93,"date":"20200103"},"geometry":{"type":"Point","coordinates":[-118.35,34.32]}},
+    {"type":"Feature","properties":{"prob":0.66,"date":"20200103"},"geometry":{"type":"Point","coordinates":[-118.6,34.28]}},
+    {"type":"Feature","properties":{"prob":0.75,"date":"20200103"},"geometry":{"type":"Point","coordinates":[-118.25,34.4]}}
+  ]
+} 

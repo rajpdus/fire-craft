@@ -1,0 +1,47 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "county": "Los Angeles" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-118.944, 34.823],
+          [-117.646, 34.823],
+          [-117.646, 33.703],
+          [-118.944, 33.703],
+          [-118.944, 34.823]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "county": "Orange" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-118.125, 33.926],
+          [-117.5, 33.926],
+          [-117.5, 33.4],
+          [-118.125, 33.4],
+          [-118.125, 33.926]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "county": "Ventura" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-119.5, 34.568],
+          [-119.0, 34.568],
+          [-119.0, 34.0],
+          [-119.5, 34.0],
+          [-119.5, 34.568]
+        ]]
+      }
+    }
+  ]
+} 

@@ -1,0 +1,19 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "city": "Los Angeles" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-118.668, 34.337],
+          [-118.155, 34.337],
+          [-118.155, 33.703],
+          [-118.668, 33.703],
+          [-118.668, 34.337]
+        ]]
+      }
+    }
+  ]
+} 
