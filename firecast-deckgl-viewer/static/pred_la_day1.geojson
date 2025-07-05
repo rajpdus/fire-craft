@@ -1,6 +1,7 @@
 {
   "type": "FeatureCollection",
   "features": [
-    {"type": "Feature", "properties": {"prob": 0.55, "date": "20200101"}, "geometry": {"type": "Point", "coordinates": [-118.4, 34.15]}}
+    {"type": "Feature", "properties": {"prob": 0.85, "date": "20200101"}, "geometry": {"type": "Point", "coordinates": [-118.35, 34.1]}},
+    {"type": "Feature", "properties": {"prob": 0.75, "date": "20200101"}, "geometry": {"type": "Point", "coordinates": [-118.25, 34.05]}}
   ]
 } 

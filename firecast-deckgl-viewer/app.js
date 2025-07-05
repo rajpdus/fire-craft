@@ -74,6 +74,9 @@ function buildLayers(zoom) {
   const data = currentDataDense;
   const heatVisible = zoom < 9;
   const scatterVisible = zoom >= 9;
+  const cityDotsVisible = zoom >= 11;
+  const cityLabelsVisible = zoom < 11;
+  
   return [
     new deck.HeatmapLayer({
       id: 'heat',
@@ -106,7 +109,7 @@ function buildLayers(zoom) {
       sizeUnits: 'pixels',
       getColor: [0,0,0,200],
       billboard: true,
-      visible: true
+      visible: cityLabelsVisible
     }),
     new deck.ScatterplotLayer({
       id: 'city-dots',
@@ -118,7 +121,8 @@ function buildLayers(zoom) {
       getLineColor: [255,255,255,255],
       lineWidthUnits: 'pixels',
       lineWidthMinPixels: 1,
-      pickable: false
+      pickable: false,
+      visible: cityDotsVisible
     })
   ];
 }
